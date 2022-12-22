@@ -1,0 +1,53 @@
+body, html{
+    background-color: #d4d4d8;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+.header{
+    background-color: #f4f4f5;
+    box-shadow: 0 8px 8px -4px rgba(161, 161, 170, 1);
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.dashboard{
+    background-color: #3f3f46;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+.projects{
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+.layout{
+    text-align: center;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 6fr;
+}
+.profile-pic{
+    border-radius: 50%;
+    height: 50px;
+}
+.search{
+    background-color: #a1a1aa;
+    border-radius: 10px;
+    border-color: transparent;
+    width: 50%;
+    padding: 5px;
+}
+.left-header, .right-header{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.right-header{
+    justify-self: end;
+}
+.top-header{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 25px;
+}
